@@ -1,0 +1,38 @@
+.head{color:rgb(8, 150, 84);
+    text-align: center;
+    background-color: rgb(247, 207, 100);
+    }
+
+
+body{background-color:antiquewhite;}
+
+.header-category{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+p{color:brown;
+text-align: justify;
+border-style:groove;
+border-color: #553c9a;
+background: whitesmoke;
+}
+
+img{display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+#t-dog{color: rgb(255, 255, 255);background-image: linear-gradient(to left, #553c9a, #b393d3);}
+
+#t-cat{color: rgb(255, 255, 255);background-image: linear-gradient(to left, #a51185, #b393d3);}
+
+#t-cat{color: rgb(255, 255, 255);background-image: linear-gradient(to left, #a51185, #b393d3);}
+
+#t-huron{color: rgb(255, 255, 255);background-image: linear-gradient(to left, #a51111, #b393d3);}
+
+#t-cuy{color: rgb(255, 255, 255);background-image: linear-gradient(to left, #04b44e, #b393d3);}
+
+#t-turtle{color: rgb(255, 255, 255);background-image: linear-gradient(to left, #979904, #b393d3);}
+
+#t-dragon{color: rgb(255, 255, 255);background-image: linear-gradient(to left, #f15a02, #b393d3);}
+
+h3{text-decoration:underline;}
