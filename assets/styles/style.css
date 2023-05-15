@@ -36,3 +36,11 @@ img{display: block;
 #t-dragon{color: rgb(255, 255, 255);background-image: linear-gradient(to left, #f15a02, #b393d3);}
 
 h3{text-decoration:underline;}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 4px;
+    cursor:pointer
+  }

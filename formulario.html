@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/styles/style.css" rel="stylesheet">
+    <title>Formulario de adopcion</title>
+</head>
+<body>
+    <h1>Formulario de adopción</h1>
+    <form>
+
+        <h3>Datos del adoptante</h3>
+
+        <label>Nombre(s)</label>
+        <input type="text" maxlength="50" placeholder="Escriba aquí su nombre" required>
+        
+        <br>
+        <br>
+        
+        <label>Apellido Paterno</label>
+        <input type="text" maxlength="25" placeholder="Escriba su apellido paterno" required>
+        
+        <br>
+        <br>
+
+        <label>Apellido Materno</label>
+        <input type="text" maxlength="25" placeholder="Escriba su apellido materno" required>
+        
+        <br>
+        <br>
+        
+        <label>Número de Identificación</label>
+        <input type="text" maxlength="16" required>
+        
+        <br>
+        <br>
+        
+        <label>Domicilio</label>
+        <input type="text" maxlength="50" required>
+        
+        <br>
+        <br>
+
+        <label>Telefono personal</label>
+        <input type="text" maxlength="10" required>
+        <br>
+        <br>
+        <label>e-mail</label>
+        <input type="email" required>
+
+        <h3>Datos del adoptado</h3>
+
+        <label>Nombre</label>
+        <input type="text" maxlength="25" required>
+
+        <br>
+        <br>
+        <br>
+        <label>Seleccione la especie</label>
+
+        <br>
+        <br>
+
+        <label>Perro</label>
+        <input name="especie" type="radio">
+
+        <label>Gato</label>
+        <input name="especie"type="radio">
+        
+        <label>Huron</label>
+        <input name="especie"type="radio">
+        
+        <label>Cuyo</label>
+        <input name="especie"type="radio">
+        
+        <label>Tortuga</label>
+        <input name="especie"type="radio">
+        
+        <label>Dragon</label>
+        <input name="especie"type="radio">
+
+        <br>
+        <br>
+        <br>
+        <label>Color del especimen</label>
+        <input type="color">
+
+        <br>
+        <br>
+        <br>
+        
+        <label>Seleccione el tamaño</label>
+        <br>
+        <br>
+        <label>Miniatura</label>
+        <input name="size"type="radio">
+        
+        <label>Pequeño</label>
+        <input name="size"type="radio">
+        
+        <label>Mediano</label>
+        <input name="size"type="radio">
+        
+        <label>Grande</label>
+        <input name="size"type="radio">
+        
+        <label>Gigante</label>
+        <input name="size"type="radio">
+        
+        <br>
+        <br>
+        <br>
+        <label>Edad</label>
+        <input type="number" max="100">
+
+        <br>
+        <br>
+
+        <label>Fecha de Nacimiento</label>
+        <input type="date">
+
+        <br>
+        <br>
+
+        <label>¿Esta Vacunado?</label>
+        <label>Sí</label>
+        <input name="vacination" type="checkbox">
+        <label>No</label>
+        <input name="vacination" type="checkbox">
+
+        <br>
+        <br>
+
+        <label>¿Esta Esterilizado?</label>
+        <label>Sí</label>
+        <input name="este" type="checkbox">
+        <label>No</label>
+        <input name="este" type="checkbox">
+
+        <br>
+        <br>
+
+        <label>Información adicional del especimen,(cuidados especiales, enfermedades)</label>
+        <input type="text" maxlength="250">
+
+        <h3>Terminos y condiciones</h3>
+
+        <p>Al aceptar este formulario usted se compromete a darle amor, cariño y protección, así como satisfacer las necesidades del especimen que se encuentra en adopción, el no cumplir con esto conlleva consecuencias legales.</p>
+        <label> Despues de leer este formulario en su totalidad, ¿Acepta estas condiciones?</label>
+        <br>
+        <br>
+        <label>Sí, acepto</label>
+        <input name="contract" type="radio">
+        <br>
+        <label>No acepto</label>
+        <input name="contract" type="radio">
+
+        <br>
+        <br>
+        <label>Clic para enviar Formulario</label>
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
